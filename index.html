@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta https-equiv=""X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lexi Gallery</title>
+        <link rel="stylesheet" href="modnorm.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav id="main-nav" class="topnav">
+            <a class="nav-item logo">
+                <span class="label"><i class="fas fa-home"></i>Home</span>
+            </a>
+            <a class="nav-item" logo>
+                <span class="label"><i class="fas fa-file-upload"></i>Upload</span>
+            </a>
+            <a class="nav-item">
+                <span class="label"><i class="fas fa-info-circle"></i>Info</span>
+            </a>
+            <a class="nav-item">
+                <span class="label"><i class="fas fa-quote-left"></i>Credits</span>
+            </a>
+            <a class="nav-item more">
+                <span class="label"><i class= "fas fa-ellipsis-h"></i>More</span>
+            </a>
+            <a href="javascript:void(0);" class="nav-item trigram" onclick="navToggle()"></a>
+            </a>    
+        </nav>
+        <br />
+        <div class="text-center">
+            <span class="indicator" onclick="currentSlide(1)"><img src="https://picsum.photos/600/400?random=12"/></span>
+            <span class="indicator" onclick="currentSlide(2)"><img src="https://picsum.photos/600/400?random=13"/></span>
+            <span class="indicator" onclick="currentSlide(3)"><img src="https://picsum.photos/600/400?random=15"/></span>
+            <span class="indicator" onclick="currentSlide(4)"><img src="https://picsum.photos/600/400?random=16"/></span>
+        </div>
+        </section>
+        <main class="main-grid">
+            <div class="main-grid-item one">
+                <div class="thumb"></div><hr />
+                <div class="card-content">
+                    <h4 class="card-title">The Perfect Assortment of Random Images</h4>
+                    <p class="card-text">Random images are great for many uses.</p>
+                </div>
+            </div>
+            <div id="09" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                            <div class="modal-body">
+                    <img src="https://picsum.photos/600/400?random=17" alt="example" />
+                                    <div class="eg-text">
+                                        <h3>The Perfect Assortment of Random Images</h3>
+                                        <p>Random images are great for many uses.</p>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+            <div class="main-grid-item two">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=18" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for browsing.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="main-grid-item three">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=19" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for presentations.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="main-grid-item four">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=20" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for papers.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="main-grid-item five">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=21" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for entertainment.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="main-grid-item six">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=22" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for games.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="main-grid-item seven">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=23" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for stress relief.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="main-grid-item eight">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=24" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for relaxation.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="main-grid-item nine">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=25" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for creativity.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="main-grid-item ten">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=26" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for writing.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="main-grid-item eleven">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=27" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for drawing.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="main-grid-item twelve">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <div class="modal-body">
+                <img src="https://picsum.photos/600/400?random=28" alt="example" />
+                                <div class="eg-text">
+                                    <h3>The Perfect Assortment of Random Images</h3>
+                                    <p>Great for painting.</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 Lexi</p>
+        </footer>
+    </body>
+</html>
